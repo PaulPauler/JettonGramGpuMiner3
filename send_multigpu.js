@@ -54,8 +54,20 @@ if (args['--givers']) {
             givers = givers_1.givers100;
             console.log('Using givers 100');
             break;
+        case 200:
+            givers = givers_1.givers200;
+            console.log('Using givers 1 000');
+            break;
         case 1000:
             givers = givers_1.givers1000;
+            console.log('Using givers 1 000');
+            break;
+        case 5000:
+            givers = givers_1.givers5000;
+            console.log('Using givers 1 000');
+            break;
+        case 10000:
+            givers = givers_1.givers10000;
             console.log('Using givers 1 000');
             break;
     }
